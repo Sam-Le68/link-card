@@ -8,13 +8,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f0eee8;
+}
+
 section {
-  background-color: #cabdb2;
   border: 2px solid #9a816d;
   border-radius: 3px;
   width: 250px;
   max-width: 250px;
-  background-color: #f0eee8;
+  background-color: #cabdb2;
 }
 
 .link-card {
@@ -27,6 +30,10 @@ section {
   color: #512200;
 }
 
+.first p {
+  color: #512200;
+}
+
 .second {
   font-family: georgia, serif;
   display: block;
@@ -34,19 +41,17 @@ section {
   border-bottom: 2px solid #9a816d;
 }
 
-.second dl {
-  color: #512200;
-}
-
-.second dt {
+.second ul:first-child {
   display: inline-block;
 }
 
-.second dd {
+.second ul:last-child {
   display: inline-block;
 }
 
 .third p {
+  text-align: center;
+  display: block;
   color: #f0eee8;
   background-color: #785439;
   font-weight: bold;
