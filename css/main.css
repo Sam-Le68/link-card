@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: georgia, serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -15,9 +15,9 @@ body {
 section {
   border: 2px solid #9a816d;
   border-radius: 3px;
-  width: 250px;
-  max-width: 250px;
-  background-color: #cabdb2;
+  width: 330px;
+  max-width: 330px;
+  background-color: #dcd4cd;
 }
 
 .link-card {
@@ -28,25 +28,39 @@ section {
   font-family: Dosis, sans-serif;
   display: block;
   color: #512200;
+  font-size: 1.5rem;
+  margin: 1rem;
 }
 
 .first p {
   color: #512200;
+  font-size: 1.125rem;
+  margin: 1rem;
 }
 
 .second {
-  font-family: georgia, serif;
+  margin: 1rem;
+  font-family: Georgia, serif;
   display: block;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
+  margin: 0 1rem;
+}
+
+ul {
+  list-style-type: none;
+  color: #512200;
+  font-size: .875rem;
 }
 
 .second ul:first-child {
   display: inline-block;
+  padding: 0;
 }
 
 .second ul:last-child {
   display: inline-block;
+  font-style: italic;
 }
 
 .third p {
@@ -55,6 +69,9 @@ section {
   color: #f0eee8;
   background-color: #785439;
   font-weight: bold;
-  font-family: georgia, serif;
+  font-family: sans-serif;
   border-radius: 8px;
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
+  margin: 1rem 5.8rem;
 }
