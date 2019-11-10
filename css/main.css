@@ -24,7 +24,7 @@ section {
   text-decoration: none;
 }
 
-.first h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   display: block;
   color: #512200;
@@ -39,7 +39,6 @@ section {
 }
 
 .second {
-  margin: 1rem;
   font-family: Georgia, serif;
   display: block;
   border-top: 2px solid #9a816d;
