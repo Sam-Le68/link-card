@@ -29,12 +29,12 @@ section {
   display: block;
   color: #512200;
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 1rem 1rem 1.05rem;
 }
 
 .first p {
   color: #512200;
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin: 1rem;
 }
 
@@ -50,6 +50,7 @@ dl {
   list-style-type: none;
   color: #512200;
   font-size: .875rem;
+  margin-top: 1rem;
 }
 
 dt {
@@ -60,6 +61,7 @@ dt {
 dd {
   width: 30%;
   display: inline-block;
+  font-style: italic;
 }
 
 .third p {
